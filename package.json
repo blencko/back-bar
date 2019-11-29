@@ -1,0 +1,50 @@
+{
+  "name": "nodejs-api-starter-passport",
+  "version": "1.0.0",
+  "description": "A boilerplate for Node.js API starter using Express, Passport and MongoDB",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agrezo/nodejs-api-starter.git"
+  },
+  "author": "Flavio Paroli",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "connect-mongo": "^3.1.2",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "firebase": "^5.10.0",
+    "firebase-admin": "^7.3.0",
+    "grpc": "^1.24.2",
+    "install": "^0.13.0",
+    "jwt-decode": "git+https://github.com/auth0/jwt-decode.git",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.3.3",
+    "multer": "^1.4.1",
+    "node-pre-gyp": "^0.14.0",
+    "nodemailer": "^4.7.0",
+    "package.json": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-custom": "^1.0.5",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
